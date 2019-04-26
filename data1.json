@@ -1,0 +1,921 @@
+[
+  {
+    "account": "icr05",
+    "device": "352544070327417",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070327417",
+      "distancedelta": 0.0500200883178793,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV SAN JUAN MASIAS   - CALLAO (CALLAO-CALLAO)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 7.77,
+        "latitude": -12.000893333333334,
+        "longitude": -77.116175,
+        "speed": 43.4
+      },
+      "id": "icr05/352544070327417",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550874963,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.116175,
+          -12.000893333333334
+        ],
+        "type": "Point"
+      },
+      "mileage": 16196.329634299214,
+      "name": "P133",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "cantacallao"
+        ],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550874963,
+        "timezone": "-05:00"
+      },
+      "vehicle": "P133",
+      "vehiclePlate": "A2R-755"
+    },
+    "distancedelta": 0.0500200883178793,
+    "event": "61714",
+    "eventData": {
+      "event_desc": "Movimiento",
+      "event_name": "EventMove"
+    },
+    "geozones": [
+      "cantacallao"
+    ],
+    "gpsData": {
+      "address": "AV SAN JUAN MASIAS   - CALLAO (CALLAO-CALLAO)",
+      "altitude": 0,
+      "heading": 7.77,
+      "latitude": -12.000893333333334,
+      "longitude": -77.116175,
+      "speed": 43.4
+    },
+    "id": "0001805d-eb09-42bb-bee6-d617ce8da74f",
+    "mileage": 16196.329634299214,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550874963,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P133",
+    "vehiclePlate": "A2R-755"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070752945",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070752945",
+      "geotype": "device",
+      "gpsdata": {
+        "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61472",
+        "heading": 0,
+        "latitude": -11.85034,
+        "longitude": -77.00350833333333,
+        "speed": 0
+      },
+      "id": "icr05/352544070752945",
+      "last_event": "61472",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551584597,
+        "timezone": "-05:00"
+      },
+      "last_timedelta": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551584597,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.00350833333333,
+          -11.85034
+        ],
+        "type": "Point"
+      },
+      "name": "P132",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "00"
+        ],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551584597,
+        "timezone": "-05:00"
+      },
+      "timedelta": 140,
+      "vehicle": "P132",
+      "vehiclePlate": "A8Y-760"
+    },
+    "event": "61472",
+    "eventData": {
+      "event_desc": "Posicion",
+      "event_name": "EventPosition"
+    },
+    "geozones": [
+      "00"
+    ],
+    "gpsData": {
+      "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 0,
+      "latitude": -11.85034,
+      "longitude": -77.00350833333333,
+      "speed": 0
+    },
+    "id": "0001e772-46e9-427b-9529-026f3d19df89",
+    "last_timedelta": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1551584597,
+      "timezone": "-05:00"
+    },
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1551584597,
+      "timezone": "-05:00"
+    },
+    "timedelta": 140,
+    "vehicle": "P132",
+    "vehiclePlate": "A8Y-760"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070327391",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070327391",
+      "dispatch_last_id": "a14d2320-736a-4fde-b3af-f4456524a5e6",
+      "distancedelta": 0.21784703481384718,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV TUPAC AMARU  UR SAN CARLOS ET 1 - COMAS (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 66.9,
+        "latitude": -11.908718333333333,
+        "longitude": -77.034715,
+        "speed": 0.2
+      },
+      "groups": [],
+      "id": "icr05/352544070327391",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550359845,
+        "timezone": "-05:00"
+      },
+      "last_timedelta": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550359684,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.034715,
+          -11.908718333333333
+        ],
+        "type": "Point"
+      },
+      "mileage": 15141.466294635811,
+      "name": "P156",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [],
+        "gz_in": [],
+        "gz_out": [
+          "20"
+        ]
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550359845,
+        "timezone": "-05:00"
+      },
+      "timedelta": 140,
+      "user_data": {
+        "dni": "42101309"
+      },
+      "vehicle": "P156",
+      "vehiclePlate": "APT-780"
+    },
+    "distancedelta": 0,
+    "event": "62000",
+    "eventData": {
+      "event_desc": "Salida de Geozona",
+      "event_name": "EventExitGeozone",
+      "geozone_name": "20"
+    },
+    "geozones": [],
+    "gpsData": {
+      "address": "AV TUPAC AMARU  UR SAN CARLOS ET 1 - COMAS (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 66.9,
+      "latitude": -11.908718333333333,
+      "longitude": -77.034715,
+      "speed": 0.2
+    },
+    "id": "000113f3-23b0-495e-b673-a3e663f0e587",
+    "last_timedelta": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550359684,
+      "timezone": "-05:00"
+    },
+    "mileage": 0,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550359845,
+      "timezone": "-05:00"
+    },
+    "timedelta": 0,
+    "vehicle": "P156"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070751806",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070751806",
+      "geotype": "device",
+      "gpsdata": {
+        "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61472",
+        "heading": 0,
+        "latitude": -11.850436666666667,
+        "longitude": -77.003585,
+        "speed": 0
+      },
+      "id": "icr05/352544070751806",
+      "last_event": "61472",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549205411,
+        "timezone": "-05:00"
+      },
+      "last_timedelta": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549205411,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.003585,
+          -11.850436666666667
+        ],
+        "type": "Point"
+      },
+      "name": "P113",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "00"
+        ],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549205411,
+        "timezone": "-05:00"
+      },
+      "timedelta": 140,
+      "vehicle": "P113",
+      "vehiclePlate": "F8B-874"
+    },
+    "event": "61472",
+    "eventData": {
+      "event_desc": "Posicion",
+      "event_name": "EventPosition"
+    },
+    "geozones": [
+      "00"
+    ],
+    "gpsData": {
+      "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 0,
+      "latitude": -11.850436666666667,
+      "longitude": -77.003585,
+      "speed": 0
+    },
+    "id": "00000157-3153-461e-8150-991008f489d4",
+    "last_timedelta": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1549205411,
+      "timezone": "-05:00"
+    },
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1549205411,
+      "timezone": "-05:00"
+    },
+    "timedelta": 140,
+    "vehicle": "P113",
+    "vehiclePlate": "F8B-874"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070328258",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070328258",
+      "geotype": "device",
+      "gpsdata": {
+        "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61472",
+        "heading": 0,
+        "latitude": -11.850396666666667,
+        "longitude": -77.00364,
+        "speed": 0
+      },
+      "id": "icr05/352544070328258",
+      "last_event": "61472",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551199092,
+        "timezone": "-05:00"
+      },
+      "last_timedelta": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551199092,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.00364,
+          -11.850396666666667
+        ],
+        "type": "Point"
+      },
+      "name": "P105",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "00"
+        ],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1551199092,
+        "timezone": "-05:00"
+      },
+      "timedelta": 141,
+      "vehicle": "P105",
+      "vehiclePlate": "F8J-733"
+    },
+    "event": "61472",
+    "eventData": {
+      "event_desc": "Posicion",
+      "event_name": "EventPosition"
+    },
+    "geozones": [
+      "00"
+    ],
+    "gpsData": {
+      "address": "CA S/N  AH 30 DE AGOSTO - CARABAYLLO (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 0,
+      "latitude": -11.850396666666667,
+      "longitude": -77.00364,
+      "speed": 0
+    },
+    "id": "000178cb-ee9e-408d-924e-f3496cdf2cb2",
+    "last_timedelta": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1551199092,
+      "timezone": "-05:00"
+    },
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1551199092,
+      "timezone": "-05:00"
+    },
+    "timedelta": 141,
+    "vehicle": "P105",
+    "vehiclePlate": "F8J-733"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070327391",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070327391",
+      "distancedelta": 0.24899435377912016,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV ELMER FAUCETT CDRA. 20  - CALLAO (CALLAO-CALLAO)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 358.07,
+        "latitude": -12.038791666666667,
+        "longitude": -77.09919166666667,
+        "speed": 63.6
+      },
+      "id": "icr05/352544070327391",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550595099,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.09919166666667,
+          -12.038791666666667
+        ],
+        "type": "Point"
+      },
+      "mileage": 15392.346732487504,
+      "name": "P156",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "corredorcallao"
+        ],
+        "gz_in": [
+          "corredorcallao"
+        ],
+        "gz_out": [
+          "hospitalcallao"
+        ]
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550595099,
+        "timezone": "-05:00"
+      },
+      "vehicle": "P156",
+      "vehiclePlate": "APT-780"
+    },
+    "distancedelta": 0.24899435377912016,
+    "event": "61714",
+    "eventData": {
+      "event_desc": "Movimiento",
+      "event_name": "EventMove"
+    },
+    "geozones": [
+      "corredorcallao"
+    ],
+    "gpsData": {
+      "address": "AV ELMER FAUCETT CDRA. 20  - CALLAO (CALLAO-CALLAO)",
+      "altitude": 0,
+      "heading": 358.07,
+      "latitude": -12.038791666666667,
+      "longitude": -77.09919166666667,
+      "speed": 63.6
+    },
+    "id": "00000f76-84b8-41af-b648-b47fa6ff1c8a",
+    "mileage": 15392.346732487504,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550595099,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P156",
+    "vehiclePlate": "APT-780"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070327284",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070327284",
+      "distancedelta": 0.06260431206576812,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV ENRIQUE LOPEZ ALBUJAR   - COMAS (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 220.63,
+        "latitude": -11.93318,
+        "longitude": -77.04629833333334,
+        "speed": 5.2
+      },
+      "id": "icr05/352544070327284",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550005676,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.04629833333334,
+          -11.93318
+        ],
+        "type": "Point"
+      },
+      "mileage": 13234.74795738303,
+      "name": "P109",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [
+          "03"
+        ],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550005676,
+        "timezone": "-05:00"
+      },
+      "vehicle": "P109",
+      "vehiclePlate": "F8V-712"
+    },
+    "distancedelta": 0.06260431206576812,
+    "event": "61714",
+    "eventData": {
+      "event_desc": "Movimiento",
+      "event_name": "EventMove"
+    },
+    "geozones": [
+      "03"
+    ],
+    "gpsData": {
+      "address": "AV ENRIQUE LOPEZ ALBUJAR   - COMAS (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 220.63,
+      "latitude": -11.93318,
+      "longitude": -77.04629833333334,
+      "speed": 5.2
+    },
+    "id": "000021fd-3d7f-4d51-bab4-d1ffef59e219",
+    "mileage": 13234.74795738303,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550005676,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P109",
+    "vehiclePlate": "F8V-712"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070328258",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070328258",
+      "distancedelta": 0.110010446661524,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV TUPAC AMARU  UR HISTORICO CON CON - CARABAYLLO (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 175.21,
+        "latitude": -11.88595,
+        "longitude": -77.02334166666667,
+        "speed": 29.8
+      },
+      "id": "icr05/352544070328258",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550153864,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.02334166666667,
+          -11.88595
+        ],
+        "type": "Point"
+      },
+      "mileage": 14190.31723128529,
+      "name": "P105",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1550153864,
+        "timezone": "-05:00"
+      },
+      "vehicle": "P105",
+      "vehiclePlate": "F8J-733"
+    },
+    "distancedelta": 0.110010446661524,
+    "event": "61714",
+    "eventData": {
+      "event_desc": "Movimiento",
+      "event_name": "EventMove"
+    },
+    "geozones": [],
+    "gpsData": {
+      "address": "AV TUPAC AMARU  UR HISTORICO CON CON - CARABAYLLO (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 175.21,
+      "latitude": -11.88595,
+      "longitude": -77.02334166666667,
+      "speed": 29.8
+    },
+    "id": "00019c8f-05af-4c59-97c6-e8d1ba1fd132",
+    "mileage": 14190.31723128529,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550153864,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P105",
+    "vehiclePlate": "F8J-733"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070327391",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070327391",
+      "distancedelta": 0.1634352939699939,
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV TUPAC AMARU CDRA. 3  - COMAS (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61714",
+        "heading": 211.6,
+        "latitude": -11.967026666666667,
+        "longitude": -77.05649333333334,
+        "speed": 50.4
+      },
+      "id": "icr05/352544070327391",
+      "last_event": "61714",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549999740,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.05649333333334,
+          -11.967026666666667
+        ],
+        "type": "Point"
+      },
+      "mileage": 14768.427127549507,
+      "name": "P156",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549999740,
+        "timezone": "-05:00"
+      },
+      "vehicle": "P156",
+      "vehiclePlate": "APT-780"
+    },
+    "distancedelta": 0.1634352939699939,
+    "event": "61714",
+    "eventData": {
+      "event_desc": "Movimiento",
+      "event_name": "EventMove"
+    },
+    "geozones": [],
+    "gpsData": {
+      "address": "AV TUPAC AMARU CDRA. 3  - COMAS (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 211.6,
+      "latitude": -11.967026666666667,
+      "longitude": -77.05649333333334,
+      "speed": 50.4
+    },
+    "id": "0002013a-f6cc-445b-aaf5-1ed091eae68d",
+    "mileage": 14768.427127549507,
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1549999740,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P156",
+    "vehiclePlate": "APT-780"
+  },
+  {
+    "account": "icr05",
+    "device": "352544070752945",
+    "deviceData": {
+      "account": "icr05",
+      "device": "352544070752945",
+      "geotype": "device",
+      "gpsdata": {
+        "address": "AV TUPAC AMARU   - COMAS (LIMA-LIMA)",
+        "altitude": 0,
+        "event": "61472",
+        "heading": 200.38,
+        "latitude": -11.935898333333334,
+        "longitude": -77.04836833333333,
+        "speed": 0
+      },
+      "id": "icr05/352544070752945",
+      "last_event": "61472",
+      "last_gpstime": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549647065,
+        "timezone": "-05:00"
+      },
+      "last_timedelta": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549647065,
+        "timezone": "-05:00"
+      },
+      "location": {
+        "$reql_type$": "GEOMETRY",
+        "coordinates": [
+          -77.04836833333333,
+          -11.935898333333334
+        ],
+        "type": "Point"
+      },
+      "name": "P132",
+      "op": "GPS-UPDATE",
+      "proximity": {
+        "corridors": [
+          "icr05"
+        ],
+        "corridors_in": [],
+        "corridors_out": [],
+        "geozones": [],
+        "gz_in": [],
+        "gz_out": []
+      },
+      "state": {
+        "engine_on": false
+      },
+      "time": {
+        "$reql_type$": "TIME",
+        "epoch_time": 1549647065,
+        "timezone": "-05:00"
+      },
+      "timedelta": 41,
+      "vehicle": "P132",
+      "vehiclePlate": "A8Y-760"
+    },
+    "event": "61472",
+    "eventData": {
+      "event_desc": "Posicion",
+      "event_name": "EventPosition"
+    },
+    "geozones": [],
+    "gpsData": {
+      "address": "AV TUPAC AMARU   - COMAS (LIMA-LIMA)",
+      "altitude": 0,
+      "heading": 200.38,
+      "latitude": -11.935898333333334,
+      "longitude": -77.04836833333333,
+      "speed": 0
+    },
+    "id": "0001f43b-980d-4f3b-abfc-d93b45ddd0a6",
+    "last_timedelta": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1549647065,
+      "timezone": "-05:00"
+    },
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1549647065,
+      "timezone": "-05:00"
+    },
+    "timedelta": 41,
+    "vehicle": "P132",
+    "vehiclePlate": "A8Y-760"
+  }
+]

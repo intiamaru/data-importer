@@ -1,0 +1,88 @@
+{
+  "account": "icr05",
+  "device": "352544070327417",
+  "deviceData": {
+    "account": "icr05",
+    "device": "352544070327417",
+    "distancedelta": 0.0500200883178793,
+    "geotype": "device",
+    "gpsdata": {
+      "address": "AV SAN JUAN MASIAS   - CALLAO (CALLAO-CALLAO)",
+      "altitude": 0,
+      "event": "61714",
+      "heading": 7.77,
+      "latitude": -12.000893333333334,
+      "longitude": -77.116175,
+      "speed": 43.4
+    },
+    "id": "icr05/352544070327417",
+    "last_event": "61714",
+    "last_gpstime": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550874963,
+      "timezone": "-05:00"
+    },
+    "location": {
+      "$reql_type$": "GEOMETRY",
+      "coordinates": [
+        -77.116175,
+        -12.000893333333334
+      ],
+      "type": "Point"
+    },
+    "mileage": 16196.329634299214,
+    "name": "P133",
+    "op": "GPS-UPDATE",
+    "proximity": {
+      "corridors": [
+        "icr05"
+      ],
+      "corridors_in": [],
+      "corridors_out": [],
+      "geozones": [
+        "cantacallao"
+      ],
+      "gz_in": [],
+      "gz_out": []
+    },
+    "state": {
+      "engine_on": false
+    },
+    "time": {
+      "$reql_type$": "TIME",
+      "epoch_time": 1550874963,
+      "timezone": "-05:00"
+    },
+    "vehicle": "P133",
+    "vehiclePlate": "A2R-755"
+  },
+  "distancedelta": 0.0500200883178793,
+  "event": "61714",
+  "eventData": {
+    "event_desc": "Movimiento",
+    "event_name": "EventMove"
+  },
+  "geozones": [
+    "cantacallao"
+  ],
+  "gpsData": {
+    "address": "AV SAN JUAN MASIAS   - CALLAO (CALLAO-CALLAO)",
+    "altitude": 0,
+    "heading": 7.77,
+    "latitude": -12.000893333333334,
+    "longitude": -77.116175,
+    "speed": 43.4
+  },
+  "id": "0001805d-eb09-42bb-bee6-d617ce8da74f",
+  "mileage": 16196.329634299214,
+  "state": {
+    "engine_on": false
+  },
+  "time": {
+    "$reql_type$": "TIME",
+    "epoch_time": 1550874963,
+    "timezone": "-05:00"
+  },
+  "vehicle": "P133",
+  "vehiclePlate": "A2R-755"
+}
