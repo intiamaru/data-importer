@@ -17,17 +17,17 @@ rdb_dbname = config["rdb_dbname"]
 rdb_user = config["rdb_user"]
 rdb_pass = config["rdb_pass"]
 
-def insert_ticket(item):
-    r.db(rdb_dbname).table("post_base").insert(item).run()
+def insert_elem(item):
+    r.db(rdb_dbname).table("tablename").insert(item).run()
 
 def close_connection( con ):
     #print 'rethinkdb exit' , con
     con.close()
     #print 'rethinkdb closed con' , con
 
-def print_cursor():
+def print_cursor(tablename):
     con = r.connect( rdb_host, rdb_port).repl()
-    cursor = r.db(rdb_dbname).table("post_base").run()
+    cursor = r.db(rdb_dbname).table(tablename).limit(10000).run(time_format="raw")
     result = []
     for document in cursor:
         line = json.dumps(document)
@@ -36,11 +36,11 @@ def print_cursor():
     #should deal with transactions management
     close_connection(con)
 
-def print_list():
+def print_list(tablename):
         con = r.connect( rdb_host, rdb_port).repl()
-        cursor = r.db(rdb_dbname).table("post_base").run()
+        cursor = r.db(rdb_dbname).table(tablename).limit(100000).run(time_format="raw")
         result = list(cursor)
         print(json.dumps(result))
         close_connection(con)
 
-print_list()
+print_list("history")
