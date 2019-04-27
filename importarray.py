@@ -4,7 +4,10 @@ import os
 import json
 from jinja2 import Template
 
-filename = "history.json"
+dir_path = os.path.dirname(os.path.realpath(__file__))
+filename = dir_path + "/" + "history.json"
+
+
 with open(filename, "r") as json_file:
     data = json.load(json_file)
 

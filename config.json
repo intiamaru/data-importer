@@ -3,5 +3,6 @@
   "rdb_port"    : 28015,
   "rdb_dbname"  : "geobox",
   "rdb_user"    : "admin",
-  "rdb_pass"    : ""
+  "rdb_pass"    : "",
+  "export_table": "history"
 }
