@@ -13,7 +13,7 @@ if len(sys.argv) > 1:
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 filename = dir_path + "/" + name
-filename = '/root/data.json'
+filename = '/extra/data.json'
 
 with open(filename, "r") as lines:
     for line in lines:
